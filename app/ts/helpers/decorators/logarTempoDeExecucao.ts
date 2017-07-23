@@ -20,7 +20,7 @@ export function logarTempoDeExecucao(emSegundos: boolean = false) {
             console.log(`Resultado do método: ${JSON.stringify(resultado)}` )
             const t2 = performance.now();
             console.log(`${propertyKey} demorou ${(t2 - t1) / divisor} ${unidade}`);
-            console.log('-----------------------')
+            console.log('-----------------------');
             
             return resultado;
         }
